@@ -1,0 +1,1 @@
+npm i -D prettier && touch .prettierrc && echo {"singleQuote": false,"semi": true,"printWidth": 80} > .prettierrc

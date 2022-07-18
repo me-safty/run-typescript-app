@@ -1,0 +1,1 @@
+echo ================ && echo "build": "npx tsc", && echo "start": "npm run build && node build/.", && echo "format": "prettier --write src/**/*.ts", && echo "lint": "eslint src/**/*.ts", && echo "lint:f": "eslint src/**/*.ts --fix", && echo "test": "npm run build && jasmine", && echo "dev": "nodemon src/index.ts"
